@@ -1,0 +1,74 @@
+.card{
+  background-color: #2f2f2f;
+  border-radius: 8px;
+  
+  
+  
+  box-shadow: 0px 0px 16px 0px #2f2f2f;
+}
+.card_comp{
+  background-color: #2f2f2f;
+  border-radius: 8px;
+  border:2px solid #7ab530;
+}
+.checkin{
+ position:relative;
+  top:20px;
+  right:-138px;
+}
+.card-title{
+  margin-left: 10px;
+  color: white;
+  width: 50%;
+  
+}
+.card-header{
+ 
+  display: flex;
+  border-bottom: 2px solid #5c5c5c;
+  
+}
+.card-text{
+  color: white;
+  margin-left: 20px;
+  
+}
+/* .card-body{
+  margin-bottom: 15px;
+} */
+.df{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 12px;
+  gap:2rem;
+  border: none;
+}
+
+.button_comp{
+  background-color: #c620A7;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  width:200px;
+  margin-left: 10px;
+  cursor: pointer;
+  height: 30px;
+}
+.button_incomp{
+  background-color: #2f2f2f;
+  color: #AFAFAF;
+
+  border: none;
+  width:200px;
+  margin-left: 10px;
+  height: 30px;
+}
+.button_del{
+  color: #AFAFAF;
+  background-color:#2f2f2f;
+  border: none;
+  cursor: pointer;
+}
+.button_del:hover{
+ color:#c620A7 ;
+}
